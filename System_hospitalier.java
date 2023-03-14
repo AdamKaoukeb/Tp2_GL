@@ -35,11 +35,15 @@ public class System_hospitalier {
 	
 	private String analyserRequete(Requête requête) {
 		// Analyser la requête
+		//Cette methode retourne forcement la chaine de caractere "requete analysee"
+		//Elle est utilisée dans la methode recevoirRequete, et peut servir a ajouter du delai
 		return "requête analysée";
 	}
 	
 	private String comparerDonnes() {
 		// Comparaison des données
+		// Cette methode est comparable a la precedente, elle retourne forcement une chaine de 
+		//caracteres, est utilisee dans la meme methode et peut appliquer le meme delai
 		return "Cluster trouvé";
 	}
 
